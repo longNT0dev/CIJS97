@@ -1,0 +1,32 @@
+.card {
+    width: 240px;
+    height: 450px;
+    border: 1px solid black;
+}
+
+.avatar {
+    background-color: grey;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    padding-left: 12px;
+}
+
+.attributes {
+    display: flex;
+    column-gap: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.item-1 {
+    background-color: red;
+}
+
+.item-2 {
+    background-color: blue;
+}
