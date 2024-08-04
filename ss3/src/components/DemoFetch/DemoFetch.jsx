@@ -50,7 +50,7 @@ function DemoFetch() {
 
     return (
         <>
-            {isLoading && <h1>Loading....thay đổi thử</h1>}
+            {isLoading && <h1>Loading....thay đổi thử từ người B</h1>}
             <button onClick={fetchPokemon}>Bấm để lấy ra danh sách tất cả pokemon</button>
 
             {
