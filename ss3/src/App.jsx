@@ -7,6 +7,7 @@ import Header from './components/Header/Header';
 import { ThemeContext } from './contexts/ThemeContext';
 import Footer from './components/Footer/Footer';
 import Clock from './components/Clock/Clock';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   // Thực hiện logic xử lý 
@@ -128,7 +129,11 @@ function App() {
         <AuthContext.Provider value={{ currentUser, setCurrentUser }}>
           <Header></Header>
 
-          <Clock></Clock>
+          {/* <Clock></Clock> */}
+          <main>
+            {/* Render ra trang nào đó */}
+            <Outlet></Outlet>
+          </main>
 
           <Footer></Footer>
           {/* Tất cả component nằm bên trong đều dùng được context này  */}
