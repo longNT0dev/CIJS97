@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import WelcomePage from './components/WelcomePage/WelcomePage';
 import DemoFetch from './components/DemoFetch/DemoFetch';
+import { DemoUseRef } from './components/DemoHook/DemoHook';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/demo-fetch",
         element: <DemoFetch />
+      },
+      {
+        path: "/demo-hooks",
+        element: <DemoUseRef />
       },
     ]
   },
