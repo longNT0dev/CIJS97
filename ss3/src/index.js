@@ -10,6 +10,7 @@ import {
 import WelcomePage from './components/WelcomePage/WelcomePage';
 import DemoFetch from './components/DemoFetch/DemoFetch';
 import { DemoUseRef } from './components/DemoHook/DemoHook';
+import DemoCrudFetch from './components/DemoCRUDFetch/DemoCrudFetch';
 
 const router = createBrowserRouter([
   {
@@ -40,7 +41,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/demo-fetch",
-        element: <DemoFetch />
+        element: <DemoCrudFetch />
       },
       {
         path: "/demo-hooks",
